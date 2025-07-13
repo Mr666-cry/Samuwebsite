@@ -1,0 +1,1237 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LORD DZIK X SHOP - Solusi Digital Anda</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <script src="script.js" defer></script>
+</head>
+
+    <header>
+        <div class="container">
+            <a href="#" class="logo-container">
+                <img src="https://img1.pixhost.to/images/6884/617116900_rizzhosting.jpg" alt="Lord Dzik X Shop Logo" class="logo-img">
+                <span class="logo-text">LORD DZIK X SHOP</span>
+            </a>
+            
+            <nav class="navbar">
+                <a href="#katalog">Katalog</a>
+                <a href="#qna">Q&A</a>
+                <a href="#pembayaran">Metode Pembayaran</a>
+            </nav>
+
+            <button class="hamburger-btn" id="open-sidenav-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <nav class="sidenav" id="sidenav">
+        <button class="close-btn" id="close-sidenav-btn">&times;</button>
+        <a href="#katalog">Katalog</a>
+        <a href="#qna">Q&A</a>
+        <a href="#pembayaran">Metode Pembayaran</a>
+    </nav>
+    <div class="overlay" id="overlay"></div>
+
+
+    <main class="container">
+
+        <section id="produk-kami">
+            <h2 class="section-title">Produk Kami</h2>
+            <div class="produk-pills">
+                <a href="#katalog" class="pill">VPS</a>
+                <a href="#katalog" class="pill">Akses Panel</a>
+                <a href="#katalog" class="pill">Panel Privat</a>
+                <a href="#katalog" class="pill">Panel Public</a>
+            </div>
+        </section>
+
+        <section id="katalog">
+            <h2 class="section-title">Katalog</h2>
+            <div class="katalog-grid">
+
+                <div class="katalog-column">
+                    <div class="card out-of-stock"> 
+                        <img src="https://files.catbox.moe/mfkydq.jpg" alt="Ikon Produk" class="card-img">
+                        
+                        <div class="stock-overlay">
+                            <span>Stok Habis</span>
+                        </div>
+
+                        <h3 class="card-title"><i class="fa-solid fa-server icon-title"></i>VPS DIGITAL OCEAN BILL PAYPAL</h3>
+                        <ul class="detailed-list">
+                            <li><i class="fa-solid fa-server"></i> RAM: 8 GB</li>
+                            <li><i class="fa-solid fa-microchip"></i> Core: 4</li>
+                            <li class="harga"><i class="fa-solid fa-tag"></i> Harga: Rp50.000</li>
+                            <li class="separator"></li>
+                            <li><i class="fa-solid fa-server"></i> RAM: 16 GB</li>
+                            <li><i class="fa-solid fa-microchip"></i> Core: 4</li>
+                            <li class="harga"><i class="fa-solid fa-tag"></i> Harga: Rp60.000</li>
+                            <li class="separator"></li>
+                            <li><i class="fa-solid fa-server"></i> RAM: 16 GB</li>
+                            <li><i class="fa-solid fa-microchip"></i> Core: 8</li>
+                            <li class="harga"><i class="fa-solid fa-tag"></i> Harga: Rp75.000</li>
+                            <li class="separator"></li>
+                            <li><i class="fa-solid fa-server"></i> RAM: 32 GB</li>
+                            <li><i class="fa-solid fa-microchip"></i> Core: 8</li>
+                            <li class="harga"><i class="fa-solid fa-tag"></i> Harga: Rp135.000</li>
+                        </ul>
+                        <p class="info-selengkapnya">Info selengkapnya chat admin.</p>
+                        <button class="order-btn" data-product="VPS Digital Ocean" disabled>PESAN</button> 
+                    </div>
+                </div>
+
+                <div class="katalog-column">
+                    <div class="card out-of-stock"> 
+                        <img src="https://files.catbox.moe/nwv81z.jpg" alt="Ikon Produk" class="card-img">
+
+                        <div class="stock-overlay">
+                            <span>Stok Habis</span>
+                        </div>
+
+                        <h3 class="card-title"><i class="fa-solid fa-sliders icon-title"></i>Akses Panel</h3>
+                        <ul class="detailed-list">
+                            <li><i class="fa-solid fa-users"></i> Reseller Panel</li>
+                            <li class="harga"><i class="fa-solid fa-tag"></i> Harga: Rp5.000</li>
+                            <li class="separator"></li>
+                            <li><i class="fa-solid fa-user-shield"></i> Admin Panel</li>
+                            <li class="harga"><i class="fa-solid fa-tag"></i> Harga: Rp8.000</li>
+                            <li class="separator"></li>
+                            <li><i class="fa-solid fa-building-user"></i> Pt Panel</li>
+                            <li class="harga"><i class="fa-solid fa-tag"></i> Harga: Rp15.000</li>
+                            <li class="separator"></li>
+                            <li><i class="fa-solid fa-crown"></i> Own Panel</li>
+                            <li class="harga"><i class="fa-solid fa-tag"></i> Harga: Rp25.000</li>
+                            <li class="separator"></li>
+                            <li><i class="fa-solid fa-handshake"></i> Tangan Kanan Panel</li>
+                            <li class="harga"><i class="fa-solid fa-tag"></i> Harga: Rp30.000</li>
+                        </ul>
+                        <p class="info-selengkapnya">Info selengkapnya chat admin.</p>
+                        <button class="order-btn" data-product="Akses Panel">PESAN</button>
+                    </div>
+                </div>
+                
+                <div class="katalog-column">
+                    <div class="card out-of-stock"> 
+                        <img src="https://files.catbox.moe/nwv81z.jpg" alt="Ikon Produk" class="card-img">
+
+                        <div class="stock-overlay">
+                            <span>Stok Habis</span>
+                        </div>
+
+                        <h3 class="card-title"><i class="fa-solid fa-shield-halved icon-title"></i>Panel Privat</h3>
+                        <ul class="detailed-list">
+                            <li><i class="fa-solid fa-server"></i> RAM: 2 GB</li>
+                            <li><i class="fa-solid fa-microchip"></i> CPU: 60%</li>
+                            <li class="harga"><i class="fa-solid fa-tag"></i> Harga: Rp4.000/BULAN</li>
+                            <li class="separator"></li>
+                            <li><i class="fa-solid fa-server"></i> RAM: 3 GB</li>
+                            <li><i class="fa-solid fa-microchip"></i> CPU: 80%</li>
+                            <li class="harga"><i class="fa-solid fa-tag"></i> Harga: Rp5.000/BULAN</li>
+                            <li class="separator"></li>
+                            <li><i class="fa-solid fa-server"></i> RAM: 4 GB</li>
+                            <li><i class="fa-solid fa-microchip"></i> CPU: 100%</li>
+                            <li class="harga"><i class="fa-solid fa-tag"></i> Harga: Rp6.000/BULAN</li>
+                            <li class="separator"></li>
+                            <li><i class="fa-solid fa-server"></i> RAM: 5 GB</li>
+                            <li><i class="fa-solid fa-microchip"></i> CPU: 120%</li>
+                            <li class="harga"><i class="fa-solid fa-tag"></i> Harga: Rp7.000/BULAN</li>
+                            <li class="separator"></li>
+                            <li><i class="fa-solid fa-server"></i> RAM: 6 GB</li>
+                            <li><i class="fa-solid fa-microchip"></i> CPU: 140%</li>
+                            <li class="harga"><i class="fa-solid fa-tag"></i> Harga: Rp8.000/BULAN</li>
+                            <li class="separator"></li>
+                            <li><i class="fa-solid fa-server"></i> RAM: 7 GB</li>
+                            <li><i class="fa-solid fa-microchip"></i> CPU: 160%</li>
+                            <li class="harga"><i class="fa-solid fa-tag"></i> Harga: Rp9.000/BULAN</li>
+                            <li class="separator"></li>
+                            <li><i class="fa-solid fa-server"></i> RAM: 8 GB</li>
+                            <li><i class="fa-solid fa-microchip"></i> CPU: 180%</li>
+                            <li class="harga"><i class="fa-solid fa-tag"></i> Harga: Rp10.000/BULAN</li>
+                            <li class="separator"></li>
+                            <li><i class="fa-solid fa-server"></i> RAM: 9 GB</li>
+                            <li><i class="fa-solid fa-microchip"></i> CPU: 200%</li>
+                            <li class="harga"><i class="fa-solid fa-tag"></i> Harga: Rp11.000/BULAN</li>
+                            <li class="separator"></li>
+                            <li><i class="fa-solid fa-server"></i> RAM: UNLIMITED</li>
+                            <li><i class="fa-solid fa-microchip"></i> CPU: UNLIMITED</li>
+                            <li class="harga"><i class="fa-solid fa-tag"></i> Harga: Rp12.000/BULAN</li>
+                        </ul>
+                        <p class="info-selengkapnya">Dan spesifikasi lainnya, chat admin.</p>
+                        <button class="order-btn" data-product="Panel Privat">PESAN</button>
+                    </div>
+                </div>
+                
+                <div class="katalog-column">
+                    <div class="card out-of-stock"> 
+                        <img src="https://files.catbox.moe/nwv81z.jpg" alt="Ikon Produk" class="card-img">
+
+                        <div class="stock-overlay">
+                            <span>Stok Habis</span>
+                        </div>
+
+                        <h3 class="card-title"><i class="fa-solid fa-users icon-title"></i>Panel Public</h3>
+                        <ul class="detailed-list">
+                            <li><i class="fa-solid fa-server"></i> RAM: 2 GB</li>
+                            <li><i class="fa-solid fa-microchip"></i> CPU: 40%</li>
+                            <li class="harga"><i class="fa-solid fa-tag"></i> Harga: Rp2.000/BULAN</li>
+                            <li class="separator"></li>
+                            <li><i class="fa-solid fa-server"></i> RAM: 3 GB</li>
+                            <li><i class="fa-solid fa-microchip"></i> CPU: 65%</li>
+                            <li class="harga"><i class="fa-solid fa-tag"></i> Harga: Rp3.000/BULAN</li>
+                            <li class="separator"></li>
+                            <li><i class="fa-solid fa-server"></i> RAM: 4 GB</li>
+                            <li><i class="fa-solid fa-microchip"></i> CPU: 85%</li>
+                            <li class="harga"><i class="fa-solid fa-tag"></i> Harga: Rp4.000/BULAN</li>
+                            <li class="separator"></li>
+                            <li><i class="fa-solid fa-server"></i> RAM: 5 GB</li>
+                            <li><i class="fa-solid fa-microchip"></i> CPU: 110%</li>
+                            <li class="harga"><i class="fa-solid fa-tag"></i> Harga: Rp5.000/BULAN</li>
+                            <li class="separator"></li>
+                            <li><i class="fa-solid fa-server"></i> RAM: 6 GB</li>
+                            <li><i class="fa-solid fa-microchip"></i> CPU: 135%</li>
+                            <li class="harga"><i class="fa-solid fa-tag"></i> Harga: Rp6.000/BULAN</li>
+                            <li class="separator"></li>
+                            <li><i class="fa-solid fa-server"></i> RAM: 7 GB</li>
+                            <li><i class="fa-solid fa-microchip"></i> CPU: 155%</li>
+                            <li class="harga"><i class="fa-solid fa-tag"></i> Harga: Rp7.000/BULAN</li>
+                            <li class="separator"></li>
+                            <li><i class="fa-solid fa-server"></i> RAM: 8 GB</li>
+                            <li><i class="fa-solid fa-microchip"></i> CPU: 170%</li>
+                            <li class="harga"><i class="fa-solid fa-tag"></i> Harga: Rp8.000/BULAN</li>
+                            <li class="separator"></li>
+                            <li><i class="fa-solid fa-server"></i> RAM: 9 GB</li>
+                            <li><i class="fa-solid fa-microchip"></i> CPU: 195%</li>
+                            <li class="harga"><i class="fa-solid fa-tag"></i> Harga: Rp9.000/BULAN</li>
+                            <li class="separator"></li>
+                            <li><i class="fa-solid fa-server"></i> RAM: UNLIMITED</li>
+                            <li><i class="fa-solid fa-microchip"></i> CPU: UNLIMITED</li>
+                            <li class="harga"><i class="fa-solid fa-tag"></i> Harga: Rp10.000/BULAN</li>
+                        </ul>
+                        <p class="info-selengkapnya">Dan spesifikasi lainnya, chat admin.</p>
+                        <button class="order-btn" data-product="Panel Public">PESAN</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="pembayaran">
+            <h2 class="section-title">Metode Pembayaran</h2>
+            <div class="payment-container">
+                <div class="payment-item">
+                    <span>DANA: <strong id="dana-number">0895393687004</strong> (A/N: Dewi)</span>
+                    <button class="copy-btn" data-target="dana-number">Salin</button>
+                </div>
+                <div class="payment-item">
+                    <span>Gopay: <strong id="gopay-number">0895393687004</strong></span>
+                    <button class="copy-btn" data-target="gopay-number">Salin</button>
+                </div>
+                <div class="payment-item">
+                    <span>OVO: <strong id="ovo-number">0895393687004</strong></span>
+                    <button class="copy-btn" data-target="ovo-number">Salin</button>
+                </div>
+                 <div class="payment-item">
+                    <span>ShopeePay: <strong id="shopeepay-number">0895393687004</strong></span>
+                    <button class="copy-btn" data-target="shopeepay-number">Salin</button>
+                </div>
+                <div class="qris-container">
+                    <h3>QRIS</h3>
+                    <img src="https://files.catbox.moe/997bxd.jpg" alt="QRIS Lord Dzik X Shop">
+                </div>
+            </div>
+        </section>
+
+        <section id="qna">
+            <h2 class="section-title">Tanya Jawab (Q&A)</h2>
+            <div class="qna-container">
+                <div class="qna-item">
+                    <h3 class="qna-question">
+                        Apa saja produk yang tersedia di Lord Dzik X Shop?
+                        <i class="fas fa-plus qna-icon"></i>
+                    </h3>
+                    <div class="qna-answer">
+                        <p>Kami menyediakan berbagai produk digital, termasuk VPS (Virtual Private Server) dari Digital Ocean, berbagai tingkatan Akses Panel, serta Panel Privat dan Panel Public untuk kebutuhan server Anda.</p>
+                    </div>
+                </div>
+                <div class="qna-item">
+                    <h3 class="qna-question">
+                        Berapa rentang harga untuk VPS Digital Ocean?
+                        <i class="fas fa-plus qna-icon"></i>
+                    </h3>
+                    <div class="qna-answer">
+                        <p>Harga VPS Digital Ocean bervariasi tergantung spesifikasi. Harga mulai dari Rp50.000 untuk 8 GB RAM & 4 Core, hingga Rp135.000 untuk 32 GB RAM & 8 Core.</p>
+                    </div>
+                </div>
+                <div class="qna-item">
+                    <h3 class="qna-question">
+                        Apakah semua produk ready stock?
+                        <i class="fas fa-plus qna-icon"></i>
+                    </h3>
+                    <div class="qna-answer">
+                        <p>Stok produk kami dinamis. Saat ini, beberapa produk seperti VPS Digital Ocean mungkin sedang habis stoknya, yang ditandai dengan label "Stok Habis" pada katalog. Untuk informasi ketersediaan yang paling akurat, Anda bisa langsung menghubungi admin melalui kontak yang tersedia.</p>
+                    </div>
+                </div>
+                <div class="qna-item">
+                    <h3 class="qna-question">
+                        Apa perbedaan utama antara Panel Privat dan Panel Public?
+                        <i class="fas fa-plus qna-icon"></i>
+                    </h3>
+                    <div class="qna-answer">
+                        <p>Perbedaan utamanya terletak pada alokasi sumber daya CPU. Panel Privat mendapatkan alokasi CPU yang lebih besar dibandingkan Panel Public pada spesifikasi RAM yang sama, sehingga performanya lebih tinggi. Sebagai contoh, untuk 2 GB RAM, Panel Privat mendapat 60% CPU, sedangkan Panel Public 40% CPU.</p>
+                    </div>
+                </div>
+                <div class="qna-item">
+                    <h3 class="qna-question">
+                        Bagaimana cara saya melakukan pemesanan?
+                        <i class="fas fa-plus qna-icon"></i>
+                    </h3>
+                    <div class="qna-answer">
+                        <p>Pilih produk yang Anda inginkan dari katalog, lalu klik tombol "PESAN". Sebuah form akan muncul untuk Anda isi (nama, spesifikasi, metode pembayaran), dan pesanan akan diteruskan ke admin melalui WhatsApp.</p>
+                    </div>
+                </div>
+                <div class="qna-item">
+                    <h3 class="qna-question">
+                        Metode pembayaran apa saja yang didukung?
+                        <i class="fas fa-plus qna-icon"></i>
+                    </h3>
+                    <div class="qna-answer">
+                        <p>Kami menerima pembayaran melalui e-wallet populer seperti DANA, Gopay, OVO, dan ShopeePay. Selain itu, kami juga menyediakan pembayaran melalui QRIS untuk kemudahan transaksi.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <main class="container">
+
+        <section id="stats">
+            <div class="stat-box">
+                <h3>1/2+</h3>
+                <p>Tahun Pengalaman</p>
+            </div>
+            <div class="stat-box">
+                <h3>100+</h3>
+                <p>Transaksi Selesai</p>
+            </div>
+            <div class="stat-box">
+                <h3>100+</h3>
+                <p>Klien Puas</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <h3>Navigasi</h3>
+                <a href="#katalog"><i class="fa-solid fa-book-open icon"></i>Katalog</a>
+                <a href="#pembayaran"><i class="fa-solid fa-credit-card icon"></i>Metode Pembayaran</a>
+            </div>
+            <div class="footer-col">
+                <h3>Layanan</h3>
+                <p><i class="fa-solid fa-server icon"></i>VPS Hosting</p>
+                <p><i class="fa-solid fa-gamepad icon"></i>Game Server</p>
+                <p><i class="fa-solid fa-cloud icon"></i>Cloud Solutions</p>
+                <p><i class="fa-solid fa-robot icon"></i>Bot WhatsApp</p> </div>
+            <div class="footer-col">
+                <h3>Kontak Kami</h3>
+                <a href="https://wa.me/62895393687004" target="_blank"><i class="fa-brands fa-whatsapp icon"></i>WhatsApp</a>
+                <a href="https://t.me/Lorddzik" target="_blank"><i class="fa-brands fa-telegram icon"></i>Telegram</a>
+                <p><i class="fa-solid fa-location-dot icon"></i>South Jakarta, Indonesia</p>
+            </div>
+            <div class="footer-col">
+                <h3>Sosial Media</h3>
+                <a href="https://github.com/lorddzik" target="_blank"><i class="fa-brands fa-github icon"></i>GitHub</a>
+                <a href="https://tiktok.com/@lorddzik08" target="_blank"><i class="fa-brands fa-tiktok icon"></i>TikTok</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Lord Dzik X Shop. All Rights Reserved. - Made with passion</p>
+        </div>
+    </footer>
+
+    <div id="order-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h3 id="modal-title">Pesan Produk</h3>
+            <form id="order-form">
+                <label for="nama">Nama Anda:</label>
+                <input type="text" id="nama" name="nama" required placeholder="Masukkan nama Anda">
+
+                <label for="spesifikasi">Pilih Spesifikasi:</label>
+                <select id="spesifikasi" name="spesifikasi" required>
+                    </select>
+
+                <label for="metode-bayar">Metode Pembayaran:</label>
+                <select id="metode-bayar" name="metode-bayar" required>
+                    <option value="DANA">DANA</option>
+                    <option value="Gopay">Gopay</option>
+                    <option value="OVO">OVO</option>
+                    <option value="ShopeePay">ShopeePay</option>
+                    <option value="QRIS">QRIS</option>
+                </select>
+
+                <button type="submit" class="submit-btn">KIRIM KE WHATSAPP</button>
+            </form>
+        </div>
+    </div>
+    
+    <button id="theme-switcher" title="Ganti Tema">
+        <i class="fas fa-sun"></i>
+        <i class="fas fa-moon"></i>
+    </button>
+    
+</body>
+</html>
+
+document.addEventListener('DOMContentLoaded', () => {
+
+    // =====================================================================
+    // PENGENDALI STOK
+    // =====================================================================
+    const stockData = {
+        "VPS Digital Ocean": { "isAvailable": false },
+        "Akses Panel":       { "isAvailable": true },
+        "Panel Privat":      { "isAvailable": true },
+        "Panel Public":      { "isAvailable": true }
+    };
+
+    function applyStockStatus(card, button, isAvailable) {
+        if (!isAvailable) {
+            card.classList.add('out-of-stock');
+            button.disabled = true;
+            if (!card.querySelector('.stock-overlay')) {
+                const overlay = document.createElement('div');
+                overlay.className = 'stock-overlay';
+                overlay.innerHTML = '<span>Stok Habis</span>';
+                card.prepend(overlay);
+            }
+        } else {
+            card.classList.remove('out-of-stock');
+            button.disabled = false;
+            const overlay = card.querySelector('.stock-overlay');
+            if (overlay) {
+                overlay.remove();
+            }
+        }
+    }
+
+    for (const productName in stockData) {
+        const productInfo = stockData[productName];
+        const button = document.querySelector(`.order-btn[data-product="${productName}"]`);
+        if (button) {
+            const card = button.closest('.card');
+            if (card) {
+                applyStockStatus(card, button, productInfo.isAvailable);
+            }
+        }
+    }
+
+    // --- LOGIKA MENU GESER (SIDENAV) ---
+    const openNavBtn = document.getElementById('open-sidenav-btn');
+    const closeNavBtn = document.getElementById('close-sidenav-btn');
+    const sidenav = document.getElementById('sidenav');
+    const overlay = document.getElementById('overlay');
+    
+    if(openNavBtn && sidenav && overlay && closeNavBtn) {
+        const openNav = () => {
+            sidenav.classList.add('active');
+            overlay.classList.add('active');
+        };
+        const closeNav = () => {
+            sidenav.classList.remove('active');
+            overlay.classList.remove('active');
+        };
+
+        openNavBtn.addEventListener('click', openNav);
+        closeNavBtn.addEventListener('click', closeNav);
+        overlay.addEventListener('click', closeNav);
+        sidenav.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', closeNav);
+        });
+    }
+
+    // --- LOGIKA MODAL PEMESANAN DENGAN TRANSISI ---
+    const orderButtons = document.querySelectorAll('.order-btn');
+    const modal = document.getElementById('order-modal');
+    const orderModalCloseBtn = document.querySelector('#order-modal .close-btn');
+    const orderForm = document.getElementById('order-form');
+    const modalTitle = document.getElementById('modal-title');
+    const spesifikasiSelect = document.getElementById('spesifikasi');
+
+    const productSpecs = {
+        'VPS Digital Ocean': { 'RAM: 8 GB, Core: 4': 'Rp50.000', 'RAM: 16 GB, Core: 4': 'Rp60.000', 'RAM: 16 GB, Core: 8': 'Rp75.000', 'RAM: 32 GB, Core: 8': 'Rp135.000' },
+        'Akses Panel': { 'Reseller Panel': 'Rp5.000', 'Admin Panel': 'Rp8.000', 'Pt Panel': 'Rp13.000', 'Own Panel': 'Rp23.000', 'Tangan Kanan Panel': 'Rp28.000' },
+        'Panel Privat': { 'RAM: 2 GB, CPU: 60%': 'Rp4.000/BLN', 'RAM: 3 GB, CPU: 80%': 'Rp5.000/BLN', 'RAM: 4 GB, CPU: 100%': 'Rp6.000/BLN', 'RAM: 5 GB, CPU: 120%': 'Rp7.000/BLN', 'RAM: 6 GB, CPU: 140%': 'Rp8.000/BLN', 'RAM: 7 GB, CPU: 160%': 'Rp9.000/BLN', 'RAM: 8 GB, CPU: 180%': 'Rp10.000/BLN', 'RAM: 9 GB, CPU: 200%': 'Rp11.000/BLN', 'RAM: UNLIMITED, CPU: UNLIMITED': 'Rp12.000/BLN' },
+        'Panel Public': { 'RAM: 2 GB, CPU: 40%': 'Rp2.000/BLN', 'RAM: 3 GB, CPU: 65%': 'Rp3.000/BLN', 'RAM: 4 GB, CPU: 85%': 'Rp4.000/BLN', 'RAM: 5 GB, CPU: 110%': 'Rp5.000/BLN', 'RAM: 6 GB, CPU: 135%': 'Rp6.000/BLN', 'RAM: 7 GB, CPU: 155%': 'Rp7.000/BLN', 'RAM: 8 GB, CPU: 170%': 'Rp8.000/BLN', 'RAM: 9 GB, CPU:195%': 'Rp9.000/BLN', 'RAM: UNLIMITED, CPU: UNLIMITED': 'Rp10.000/BLN' }
+    };
+
+    if (modal) {
+        orderButtons.forEach(button => {
+            if (!button.disabled) {
+                button.addEventListener('click', () => {
+                    const productName = button.dataset.product;
+                    modalTitle.textContent = `Pesan ${productName}`;
+                    
+                    spesifikasiSelect.innerHTML = '';
+                    const specs = productSpecs[productName] || {};
+                    for (const spec in specs) {
+                        const option = document.createElement('option');
+                        option.value = `${spec} - ${specs[spec]}`;
+                        option.textContent = `${spec} (${specs[spec]})`;
+                        spesifikasiSelect.appendChild(option);
+                    }
+                    modal.classList.add('active');
+                });
+            }
+        });
+        
+        const closeModal = () => {
+            modal.classList.remove('active');
+        };
+
+        orderModalCloseBtn.addEventListener('click', closeModal);
+        window.addEventListener('click', (e) => { 
+            if (e.target == modal) { 
+                closeModal(); 
+            } 
+        });
+
+        orderForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            const nama = document.getElementById('nama').value;
+            const spesifikasi = document.getElementById('spesifikasi').value;
+            const metodeBayar = document.getElementById('metode-bayar').value;
+            const productName = modalTitle.textContent.replace('Pesan ', '');
+            const message = `Halo, saya ingin memesan:\n- Nama: ${nama}\n- Produk: ${productName}\n- Spesifikasi: ${spesifikasi}\n- Metode Pembayaran: ${metodeBayar}`;
+            const whatsappURL = `https://wa.me/62895393687004?text=${encodeURIComponent(message)}`;
+            window.open(whatsappURL, '_blank');
+        });
+    }
+
+    // --- LOGIKA TOMBOL SALIN DENGAN NOTIFIKASI ---
+    const copyButtons = document.querySelectorAll('.copy-btn');
+    copyButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            const targetId = button.dataset.target;
+            const targetElement = document.getElementById(targetId);
+            if(targetElement) {
+                navigator.clipboard.writeText(targetElement.innerText).then(() => {
+                    const originalText = button.textContent;
+                    button.textContent = 'Disalin!';
+                    button.classList.add('copied');
+
+                    setTimeout(() => { 
+                        button.textContent = originalText; 
+                        button.classList.remove('copied');
+                    }, 1500);
+                }).catch(err => {
+                    console.error('Gagal menyalin teks: ', err);
+                });
+            }
+        });
+    });
+
+    // --- LOGIKA ZOOM GAMBAR QRIS ---
+    const qrisImage = document.querySelector('.qris-container img');
+    if (qrisImage) {
+        qrisImage.addEventListener('click', function() {
+            const qrisOverlay = document.createElement('div');
+            qrisOverlay.className = 'qris-zoom-overlay';
+            const zoomedImage = document.createElement('img');
+            zoomedImage.src = this.src;
+            qrisOverlay.appendChild(zoomedImage);
+            document.body.appendChild(qrisOverlay);
+            setTimeout(() => { qrisOverlay.classList.add('active'); }, 10);
+            const closeZoom = () => {
+                qrisOverlay.classList.remove('active');
+                qrisOverlay.addEventListener('transitionend', () => { if (qrisOverlay.parentNode) { qrisOverlay.parentNode.removeChild(qrisOverlay); } }, { once: true });
+            };
+            qrisOverlay.addEventListener('click', closeZoom);
+        });
+    }
+
+    // --- LOGIKA ACCORDION UNTUK Q&A ---
+    const qnaItems = document.querySelectorAll('.qna-item');
+    if (qnaItems) {
+        qnaItems.forEach(item => {
+            const question = item.querySelector('.qna-question');
+            const answer = item.querySelector('.qna-answer');
+
+            question.addEventListener('click', () => {
+                const isActive = item.classList.contains('active');
+
+                qnaItems.forEach(otherItem => {
+                    if (otherItem !== item) {
+                        otherItem.classList.remove('active');
+                        otherItem.querySelector('.qna-answer').style.maxHeight = null;
+                    }
+                });
+
+                if (isActive) {
+                    item.classList.remove('active');
+                    answer.style.maxHeight = null;
+                } else {
+                    item.classList.add('active');
+                    answer.style.maxHeight = answer.scrollHeight + 'px';
+                }
+            });
+        });
+    }
+
+    // --- LOGIKA GANTI TEMA (THEME SWITCHER) ---
+    const themeSwitcher = document.getElementById('theme-switcher');
+    const body = document.body;
+
+    // Cek tema yang tersimpan di localStorage saat halaman dimuat
+    const savedTheme = localStorage.getItem('theme');
+    if (savedTheme) {
+        body.setAttribute('data-theme', savedTheme);
+    } else {
+        // Atur tema default jika tidak ada yang tersimpan (misal: 'light')
+        body.setAttribute('data-theme', 'light');
+    }
+
+    if (themeSwitcher) {
+        themeSwitcher.addEventListener('click', () => {
+            const currentTheme = body.getAttribute('data-theme');
+            const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+            
+            body.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+        });
+    }
+
+});
+
+/* General Styling & Color Variables */
+body[data-theme="light"] {
+    --bg-main: #F0F2F5;
+    --bg-card: #FFFFFF;
+    --text-primary: #242E42;
+    --text-secondary: #5D6D7E;
+    --border-color: #DDE1E6;
+    --primary-accent: #242E42;
+    --primary-accent-hover: #36455E;
+    --stock-overlay-bg: rgba(255, 255, 255, 0.5);
+    --stock-overlay-text: #242E42;
+    --stock-overlay-border: #242E42;
+}
+
+body[data-theme="dark"] {
+    --bg-main: #0f101b;
+    --bg-card: #1a1a2e;
+    --text-primary: #F5F5F5;
+    --text-secondary: #8c8c8e;
+    --border-color: #2a2a41;
+    --primary-accent: #3498DB;
+    --primary-accent-hover: #2980b9;
+    --stock-overlay-bg: rgba(0, 0, 0, 0.6);
+    --stock-overlay-text: #fff;
+    --stock-overlay-border: rgba(255, 255, 255, 0.8);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--bg-main);
+    color: var(--text-primary);
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background-color: var(--bg-card);
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 1px solid var(--border-color);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    transition: background-color 0.3s, border-color 0.3s;
+}
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-container {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--text-primary);
+}
+.logo-img { height: 35px; border-radius: 5px; margin-right: 12px; }
+.logo-text { font-size: 1.4rem; font-weight: 700; }
+
+/* Navigation */
+.navbar a {
+    color: var(--text-secondary);
+    text-decoration: none;
+    margin-left: 25px;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+.navbar a:hover { color: var(--primary-accent); }
+
+/* Hamburger & Sidenav */
+.hamburger-btn {
+    display: none;
+    font-size: 1.5rem;
+    color: var(--text-primary);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.sidenav {
+    height: 100%;
+    width: 280px;
+    position: fixed;
+    z-index: 2000;
+    top: 0;
+    right: -280px;
+    background-color: var(--bg-card);
+    border-left: 1px solid var(--border-color);
+    box-shadow: -3px 0 15px rgba(0,0,0,0.1);
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: right 0.4s ease-out, background-color 0.3s, border-color 0.3s;
+}
+.sidenav.active {
+    right: 0;
+}
+.sidenav a {
+    padding: 10px 15px 10px 32px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: var(--text-secondary);
+    display: block;
+    transition: 0.3s;
+}
+.sidenav a:hover {
+    color: var(--primary-accent);
+}
+.sidenav .close-btn {
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    font-size: 36px;
+    color: var(--text-primary);
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.6);
+    z-index: 1999;
+    cursor: pointer;
+}
+.overlay.active {
+    display: block;
+}
+
+/* Sections */
+main { padding-top: 2rem; }
+.section-title {
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 2.5rem;
+    color: var(--text-primary);
+}
+body[data-theme="dark"] .section-title {
+    text-shadow: 0 0 10px var(--primary-accent);
+}
+
+
+/* Stats Section */
+#stats {
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+.stat-box {
+    background: var(--bg-card);
+    padding: 1.5rem;
+    border-radius: 8px;
+    flex-grow: 1;
+    border: 1px solid var(--border-color);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    transition: background-color 0.3s, border-color 0.3s;
+}
+.stat-box h3 { font-size: 2rem; color: var(--primary-accent); font-weight: 700; }
+.stat-box p { color: var(--text-secondary); }
+
+/* Produk Kami Section */
+#produk-kami { text-align: center; margin-bottom: 4rem; }
+.produk-pills { display: flex; justify-content: center; flex-wrap: wrap; gap: 1rem; }
+.pill {
+    background-color: var(--bg-card);
+    border: 1px solid var(--border-color);
+    color: var(--text-secondary);
+    padding: 0.5rem 1.5rem;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+.pill:hover { background-color: var(--primary-accent); color: #fff; border-color: var(--primary-accent); }
+
+/* Katalog Section */
+#katalog {
+    padding-top: 60px;
+    margin-top: -60px;
+}
+.katalog-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+.card {
+    height: 100%;
+    background-color: var(--bg-card);
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+    overflow: hidden;
+    display: flex; 
+    flex-direction: column;
+    padding: 0;
+    padding-bottom: 1.5rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.3s, border-color 0.3s;
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+.card-img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 1.5rem;
+}
+.card-title, .card ul, .info-selengkapnya, .order-btn {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+.card-title {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+    color: var(--text-primary);
+    display: flex;
+    align-items: center;
+}
+.icon-title { 
+    margin-right: 10px;
+    color: var(--primary-accent);
+}
+.card ul { list-style: none; margin-bottom: 1.5rem; flex-grow: 1; }
+.card ul li {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.75rem 0;
+    border-bottom: 1px solid var(--border-color);
+    color: var(--text-secondary);
+}
+.card ul li::before {
+    content: '';
+    width: 8px;
+    height: 8px;
+    background-color: var(--primary-accent);
+    border-radius: 50%;
+    margin-right: 10px;
+    flex-shrink: 0;
+    align-self: center;
+}
+.card ul li span:first-child { flex-grow: 1; }
+.card ul li span:last-child { font-weight: 500; color: var(--text-primary); }
+.info-selengkapnya { font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 1rem; }
+.order-btn {
+    width: calc(100% - 3rem);
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    padding: 0.75rem;
+    background-color: var(--primary-accent);
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+body[data-theme="light"] .order-btn { color: #fff; }
+.order-btn:hover { background-color: var(--primary-accent-hover); }
+
+/* Out of Stock Styling */
+.card.out-of-stock {
+    position: relative; 
+}
+
+.card.out-of-stock .card-img {
+    filter: grayscale(80%) brightness(0.8);
+}
+
+.card.out-of-stock .stock-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 150px;
+    background-color: var(--stock-overlay-bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 8px; 
+    border-top-right-radius: 8px;
+}
+.card.out-of-stock .stock-overlay span {
+    color: var(--stock-overlay-text);
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 5px 15px;
+    border: 2px solid var(--stock-overlay-border);
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgba(255,255,255,0.1);
+}
+
+.order-btn:disabled {
+    background-color: #A9A9A9;
+    color: #EFEFEF;
+    cursor: not-allowed;
+    opacity: 0.7;
+}
+.order-btn:disabled:hover {
+    background-color: #A9A9A9;
+}
+
+/* Detailed List Styling */
+.card ul.detailed-list { padding-bottom: 1rem; }
+.card ul.detailed-list li {
+    display: flex;
+    align-items: center;
+    padding: 0.2rem 0; 
+    border-bottom: none; 
+    color: var(--text-secondary);
+}
+.card ul.detailed-list li::before { content: none; }
+.card ul.detailed-list li i {
+    color: var(--primary-accent);
+    width: 20px; 
+    margin-right: 10px;
+    text-align: center;
+}
+.card ul.detailed-list li.harga {
+    font-weight: 700;
+    color: var(--text-primary);
+}
+.card ul.detailed-list li.separator {
+    display: block;
+    height: 1px;
+    background-color: var(--border-color);
+    margin: 0.8rem 0; 
+}
+
+/* Q&A Accordion */
+#qna {
+    margin-top: 4rem;
+    padding-top: 60px;
+    margin-top: -60px;
+}
+.qna-container {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.qna-item {
+    background-color: var(--bg-card);
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+    padding: 1.5rem;
+    transition: all 0.3s ease;
+}
+.qna-question {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--primary-accent);
+    margin-bottom: 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.qna-icon {
+    transition: transform 0.3s ease-in-out;
+}
+.qna-answer {
+    color: var(--text-secondary);
+    line-height: 1.6;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease-out, padding-top 0.4s ease-out;
+}
+.qna-answer p { margin: 0; }
+.qna-item.active .qna-answer { padding-top: 1rem; }
+.qna-item.active .qna-icon { transform: rotate(45deg); }
+
+
+/* Payment Section */
+#pembayaran { 
+    margin-top: 4rem; 
+    padding-top: 60px;
+    margin-top: -60px;
+}
+.payment-container {
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: var(--bg-card);
+    padding: 2rem;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+    transition: background-color 0.3s, border-color 0.3s;
+}
+.payment-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--border-color);
+    color: var(--text-secondary);
+}
+.copy-btn {
+    background-color: #E9ECEF;
+    color: #333;
+    border: 1px solid #ced4da;
+    padding: 0.3rem 0.8rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+.copy-btn:hover { background-color: var(--primary-accent); color: #fff; }
+.copy-btn.copied {
+    background-color: #28a745;
+    color: #ffffff;
+    border-color: #28a745;
+}
+.qris-container { text-align: center; margin-top: 2rem; }
+.qris-container h3 { margin-bottom: 1rem; color: var(--text-primary); }
+.qris-container img { max-width: 200px; border-radius: 8px; border: 1px solid var(--border-color); }
+
+/* Footer */
+footer { background-color: var(--bg-card); padding-top: 3rem; margin-top: 4rem; border-top: 1px solid var(--border-color); transition: background-color 0.3s, border-color 0.3s; }
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    padding-bottom: 3rem;
+}
+.footer-col h3 { margin-bottom: 1rem; color: var(--text-primary); }
+.footer-col a, .footer-col p {
+    display: flex;
+    align-items: center;
+    color: var(--text-secondary);
+    text-decoration: none;
+    margin-bottom: 0.75rem;
+    transition: color 0.3s;
+}
+.footer-col a:hover { color: var(--primary-accent); }
+.footer-col .icon {
+    width: 20px;
+    margin-right: 10px;
+    text-align: center;
+    color: var(--primary-accent);
+}
+.footer-bottom {
+    border-top: 1px solid var(--border-color);
+    text-align: center;
+    padding: 1.5rem 0;
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    background-color: var(--bg-main);
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+/* Modal Styling */
+.modal {
+    display: flex;
+    position: fixed;
+    z-index: 2000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+.modal.active {
+    opacity: 1;
+    visibility: visible;
+}
+.modal-content {
+    background-color: var(--bg-card);
+    padding: 2rem;
+    border: 1px solid var(--border-color);
+    width: 90%;
+    max-width: 450px;
+    border-radius: 8px;
+    position: relative;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    transform: scale(0.95);
+    transition: transform 0.3s ease, background-color 0.3s, border-color 0.3s;
+}
+.modal.active .modal-content {
+    transform: scale(1);
+}
+.modal-content .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #aaa;
+    cursor: pointer;
+}
+.modal-content .close-btn:hover { color: var(--text-primary); }
+#modal-title { color: var(--text-primary); }
+#order-form label { display: block; margin: 1rem 0 0.5rem; color: var(--text-secondary); }
+#order-form input, #order-form select {
+    width: 100%; padding: 0.75rem; border-radius: 5px;
+    border: 1px solid var(--border-color);
+    background-color: var(--bg-main);
+    color: var(--text-primary); font-size: 1rem;
+}
+#order-form .submit-btn { 
+    background-color: #28a745;
+    color: #ffffff;
+    width: 100%; 
+    margin-top: 2rem; 
+    padding: 0.8rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+    transition: background-color 0.3s;
+}
+#order-form .submit-btn:hover { background-color: #218838; }
+
+/* Responsive */
+@media (max-width: 992px) {
+    .katalog-grid { grid-template-columns: repeat(2, 1fr); }
+    .footer-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 768px) {
+    #stats { flex-direction: column; }
+    .katalog-grid { grid-template-columns: 1fr; }
+    .footer-grid { grid-template-columns: 1fr; text-align: center; }
+    .footer-col a, .footer-col p { justify-content: center; }
+    .navbar { display: none; }
+    .hamburger-btn { display: block; }
+}
+
+/* QRIS Zoom Styling */
+.qris-container img {
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.qris-container img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+.qris-zoom-overlay {
+    position: fixed;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background: rgba(36, 46, 66, 0.9);
+    display: none; justify-content: center; align-items: center;
+    z-index: 3000; opacity: 0; transition: opacity 0.3s ease;
+}
+.qris-zoom-overlay.active { display: flex; opacity: 1; }
+.qris-zoom-overlay img {
+    max-width: 90%; max-height: 90%; border-radius: 8px;
+    transform: scale(0.7); transition: transform 0.3s ease;
+}
+.qris-zoom-overlay.active img { transform: scale(1); }
+
+/* Theme Switcher Button */
+#theme-switcher {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    width: 50px;
+    height: 50px;
+    background-color: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 1010;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    transition: background-color 0.3s, border-color 0.3s, transform 0.2s ease;
+}
+#theme-switcher:hover {
+    transform: scale(1.1);
+}
+#theme-switcher i {
+    font-size: 20px;
+    position: absolute;
+    transition: transform 0.4s ease, opacity 0.4s ease;
+}
+#theme-switcher .fa-sun { color: #f39c12; }
+#theme-switcher .fa-moon { color: #82a0ce; }
+
+/* Theme Icon Animation */
+body[data-theme="light"] #theme-switcher .fa-sun {
+    transform: translateY(150%) rotate(180deg);
+    opacity: 0;
+}
+body[data-theme="light"] #theme-switcher .fa-moon {
+    transform: translateY(0) rotate(0);
+    opacity: 1;
+}
+body[data-theme="dark"] #theme-switcher .fa-sun {
+    transform: translateY(0) rotate(0);
+    opacity: 1;
+}
+body[data-theme="dark"] #theme-switcher .fa-moon {
+    transform: translateY(-150%) rotate(-180deg);
+    opacity: 0;
+}

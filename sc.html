@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LORD DZIK X SHOP - Solusi Digital Anda</title>
+    <link rel="stylesheet" href="sc.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <script src="sc.js" defer></script>
+</head>
+<body data-theme="light">
+
+    <header>
+        <div class="container">
+            <a href="/index.html" class="logo-container">
+                <img src="https://img1.pixhost.to/images/6884/617116900_rizzhosting.jpg" alt="Lord Dzik x Shop Logo" class="logo-img">
+                <span class="logo-text">LORD DZIK X SHOP</span>
+            </a>
+            
+            <nav class="navbar">
+                <a href="#katalog">Katalog</a>
+                <a href="#qna">Q&A</a>
+                <a href="#pembayaran">Metode Pembayaran</a>
+            </nav>
+
+            <button class="hamburger-btn" id="open-sidenav-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <nav class="sidenav" id="sidenav">
+        <button class="close-btn" id="close-sidenav-btn">&times;</button>
+        <a href="#katalog">Katalog</a>
+        <a href="#qna">Q&A</a>
+        <a href="#pembayaran">Metode Pembayaran</a>
+    </nav>
+    <div class="overlay" id="overlay"></div>
+
+
+    <main class="container">
+
+        <section id="produk-kami">
+            <h2 class="section-title">Produk Kami</h2>
+            <div class="produk-pills">
+                <a href="/panel/panel.html" class="pill">VPS | Akses Panel | Panel Privat | Panel Public</a>
+                <a href="/sc/sc.html" class="pill">SCRIPT VIA WA & TELE</a>
+            </div>
+        </section>
+
+        <section id="katalog">
+            <h2 class="section-title">Katalog</h2>
+            <div class="katalog-wrapper">
+                <button class="katalog-nav-btn left" aria-label="Scroll Left">&#8249;</button>
+            <div class="katalog-grid">
+                <div class="katalog-column">
+                    <div class="card"> 
+                        <img src="https://files.catbox.moe/0oe0qg.jpg" alt="Ikon Produk" class="card-img">
+
+                        <div class="stock-overlay">
+                            <span>Stok Habis</span>
+                        </div>
+                        
+                        <h3 class="card-title"><i class="fa-solid fa-file icon-title"></i>SC DRAGON V3.2 GEN2 VIA WA & TELE</h3>
+                        <ul class="detailed-list" data-product-list="SC DRAGON">
+                            </ul>
+                        <p class="info-selengkapnya">Info selengkapnya chat admin.</p>
+                        <button class="order-btn" data-product="SC DRAGON">PESAN</button>
+                    </div>
+                </div>
+                <div class="katalog-column">
+                    <div class="card"> 
+                        <img src="https://files.catbox.moe/q4jgnu.jpg" alt="Ikon Produk" class="card-img">
+
+                        <div class="stock-overlay">
+                            <span>Stok Habis</span>
+                        </div>
+                        
+                        <h3 class="card-title"><i class="fa-solid fa-file icon-title"></i>SC QUEEN XAUTH V1.1 VIA TELE</h3>
+                        <ul class="detailed-list" data-product-list="SC QUEEN XAUTH">
+                            </ul>
+                        <p class="info-selengkapnya">Info selengkapnya chat admin.</p>
+                        <button class="order-btn" data-product="SC QUEEN XAUTH">PESAN</button>
+                    </div>
+                </div>
+                <div class="katalog-column">
+                    <div class="card"> 
+                        <img src="https://files.catbox.moe/2sfu11.jpg" alt="Ikon Produk" class="card-img">
+
+                        <div class="stock-overlay">
+                            <span>Stok Habis</span>
+                        </div>
+                        
+                        <h3 class="card-title"><i class="fa-solid fa-file icon-title"></i>SC VOID STORM V17 VIA TELE</h3>
+                        <ul class="detailed-list" data-product-list="SC VOID STORM">
+                            </ul>
+                        <p class="info-selengkapnya">Info selengkapnya chat admin.</p>
+                        <button class="order-btn" data-product="SC VOID STORM">PESAN</button>
+                    </div>
+                </div>
+                <div class="katalog-column">
+                    <div class="card"> 
+                        <img src="" alt="Ikon Produk" class="card-img">
+
+                        <div class="stock-overlay">
+                            <span>Stok Habis</span>
+                        </div>
+                        
+                        <h3 class="card-title"><i class="fa-solid fa-file icon-title"></i>SC (Coming Soon)</h3>
+                        <ul class="detailed-list" data-product-list="SC COMING SOON">
+                            </ul>
+                        <p class="info-selengkapnya">Info selengkapnya chat admin.</p>
+                        <button class="order-btn" data-product="SC COMING SOON">PESAN</button>
+                    </div>
+                </div>
+                <button class="katalog-nav-btn right" aria-label="Scroll Right">&#8250;</button>
+            </div>
+        </section>
+
+        <section id="pembayaran">
+            <h2 class="section-title">Metode Pembayaran</h2>
+            <div class="payment-container">
+                <div class="payment-item">
+                    <span>DANA: <strong id="dana-number">0895393687004</strong> (A/N: Dewi)</span>
+                    <button class="copy-btn" data-target="dana-number">Salin</button>
+                </div>
+                <div class="payment-item">
+                    <span>Gopay: <strong id="gopay-number">0895393687004</strong></span>
+                    <button class="copy-btn" data-target="gopay-number">Salin</button>
+                </div>
+                <div class="payment-item">
+                    <span>OVO: <strong id="ovo-number">0895393687004</strong></span>
+                    <button class="copy-btn" data-target="ovo-number">Salin</button>
+                </div>
+                 <div class="payment-item">
+                    <span>ShopeePay: <strong id="shopeepay-number">0895393687004</strong></span>
+                    <button class="copy-btn" data-target="shopeepay-number">Salin</button>
+                </div>
+                <div class="qris-container">
+                    <h3>QRIS</h3>
+                    <img src="https://files.catbox.moe/997bxd.jpg" alt="QRIS Lord Dzik x Shop">
+                </div>
+            </div>
+        </section>
+
+        <section id="qna">
+            <h2 class="section-title">Tanya Jawab (Q&A)</h2>
+            <div class="qna-container">
+                <div class="qna-item">
+                    <h3 class="qna-question">Apa saja produk yang tersedia di Lord Dzik x Shop?<i class="fas fa-plus qna-icon"></i></h3>
+                    <div class="qna-answer"><p>Kami menyediakan berbagai produk digital, termasuk VPS (Virtual Private Server) dari Digital Ocean, berbagai tingkatan Akses Panel, serta Panel Privat dan Panel Public untuk kebutuhan server Anda.</p></div>
+                </div>
+                <div class="qna-item">
+                    <h3 class="qna-question">Berapa rentang harga untuk VPS Digital Ocean?<i class="fas fa-plus qna-icon"></i></h3>
+                    <div class="qna-answer"><p>Harga VPS Digital Ocean bervariasi tergantung spesifikasi. Harga mulai dari Rp50.000 untuk 8 GB RAM & 4 Core, hingga Rp135.000 untuk 32 GB RAM & 8 Core.</p></div>
+                </div>
+                <div class="qna-item">
+                    <h3 class="qna-question">Apakah semua produk ready stock?<i class="fas fa-plus qna-icon"></i></h3>
+                    <div class="qna-answer"><p>Stok produk kami dinamis. Saat ini, beberapa produk seperti VPS Digital Ocean mungkin sedang habis stoknya, yang ditandai dengan label "Stok Habis" pada katalog. Untuk informasi ketersediaan yang paling akurat, Anda bisa langsung menghubungi admin melalui kontak yang tersedia.</p></div>
+                </div>
+                <div class="qna-item">
+                    <h3 class="qna-question">Apa perbedaan utama antara Panel Privat dan Panel Public?<i class="fas fa-plus qna-icon"></i></h3>
+                    <div class="qna-answer"><p>Perbedaan utamanya terletak pada alokasi sumber daya CPU. Panel Privat mendapatkan alokasi CPU yang lebih besar dibandingkan Panel Public pada spesifikasi RAM yang sama, sehingga performanya lebih tinggi. Sebagai contoh, untuk 2 GB RAM, Panel Privat mendapat 60% CPU, sedangkan Panel Public 40% CPU.</p></div>
+                </div>
+                <div class="qna-item">
+                    <h3 class="qna-question">Bagaimana cara saya melakukan pemesanan?<i class="fas fa-plus qna-icon"></i></h3>
+                    <div class="qna-answer"><p>Pilih produk yang Anda inginkan dari katalog, lalu klik tombol "PESAN". Sebuah form akan muncul untuk Anda isi (nama, spesifikasi, metode pembayaran), dan pesanan akan diteruskan ke admin melalui WhatsApp.</p></div>
+                </div>
+                <div class="qna-item">
+                    <h3 class="qna-question">Metode pembayaran apa saja yang didukung?<i class="fas fa-plus qna-icon"></i></h3>
+                    <div class="qna-answer"><p>Kami menerima pembayaran melalui e-wallet populer seperti DANA, Gopay, OVO, dan ShopeePay. Selain itu, kami juga menyediakan pembayaran melalui QRIS untuk kemudahan transaksi.</p></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <main class="container">
+        <section id="stats">
+            <div class="stat-box">
+                <h3>1/2+</h3>
+                <p>Tahun Pengalaman</p>
+            </div>
+            <div class="stat-box">
+                <h3>100+</h3>
+                <p>Transaksi Selesai</p>
+            </div>
+            <div class="stat-box">
+                <h3>100+</h3>
+                <p>Klien Puas</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <h3>Navigasi</h3>
+                <a href="#katalog"><i class="fa-solid fa-book-open icon"></i>Katalog</a>
+                <a href="#pembayaran"><i class="fa-solid fa-credit-card icon"></i>Metode Pembayaran</a>
+            </div>
+            <div class="footer-col">
+                <h3>Layanan</h3>
+                <p><i class="fa-solid fa-server icon"></i>VPS Hosting</p>
+                <p><i class="fa-solid fa-gamepad icon"></i>Game Server</p>
+                <p><i class="fa-solid fa-cloud icon"></i>Cloud Solutions</p>
+                <p><i class="fa-solid fa-robot icon"></i>Bot WhatsApp</p>
+            </div>
+            <div class="footer-col">
+                <h3>Kontak Kami</h3>
+                <a href="https://wa.me/62895393687004" target="_blank"><i class="fa-brands fa-whatsapp icon"></i>WhatsApp</a>
+                <a href="https://t.me/Lorddzik" target="_blank"><i class="fa-brands fa-telegram icon"></i>Telegram</a>
+                <p><i class="fa-solid fa-location-dot icon"></i>South Jakarta, Indonesia</p>
+            </div>
+            <div class="footer-col">
+                <h3>Sosial Media</h3>
+                <a href="https://github.com/lorddzik" target="_blank"><i class="fa-brands fa-github icon"></i>GitHub</a>
+                <a href="https://tiktok.com/@lorddzik08" target="_blank"><i class="fa-brands fa-tiktok icon"></i>TikTok</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Lord Dzik x Shop. All Rights Reserved. - Made with passion</p>
+        </div>
+    </footer>
+
+    <div id="order-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h3 id="modal-title">Pesan Produk</h3>
+            <form id="order-form">
+                <label for="nama">Nama Anda:</label>
+                <input type="text" id="nama" name="nama" required placeholder="Masukkan nama Anda">
+                <label for="spesifikasi">Pilih Spesifikasi:</label>
+                <select id="spesifikasi" name="spesifikasi" required></select>
+                <label for="metode-bayar">Metode Pembayaran:</label>
+                <select id="metode-bayar" name="metode-bayar" required>
+                    <option value="DANA">DANA</option>
+                    <option value="Gopay">Gopay</option>
+                    <option value="OVO">OVO</option>
+                    <option value="ShopeePay">ShopeePay</option>
+                    <option value="QRIS">QRIS</option>
+                </select>
+                <button type="submit" class="submit-btn">KIRIM KE WHATSAPP</button>
+            </form>
+        </div>
+    </div>
+    
+    <button id="theme-switcher" title="Ganti Tema">
+        <i class="fas fa-sun"></i>
+        <i class="fas fa-moon"></i>
+    </button>
+    
+</body>
+</html>

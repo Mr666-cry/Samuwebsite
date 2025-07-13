@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+/* --- VARIABEL WARNA UNTUK MODE TERANG & GELAP --- */
+body[data-theme="dark"] {
+    --bg-main: #0f101b;
+    --bg-card: #1a1a2e;
+    --bg-card-2: #0c0d14; /* Untuk footer & category card */
+    --text-primary: #F5F5F5;
+    --text-secondary: #8c8c8e;
+    --border-color: #2a2a41;
+    --primary-accent: #3498DB;
+    --primary-accent-hover: #2980b9;
+    --hero-overlay-bg: rgba(15, 16, 27, 0.85);
+}
+
+body[data-theme="light"] {
+    --bg-main: #F0F2F5;
+    --bg-card: #FFFFFF;
+    --bg-card-2: #f8f9fa; /* Untuk footer & category card */
+    --text-primary: #242E42;
+    --text-secondary: #5D6D7E;
+    --border-color: #DDE1E6;
+    --primary-accent: #242E42;
+    --primary-accent-hover: #36455E;
+    --hero-overlay-bg: rgba(255, 255, 255, 0.7);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--bg-main);
+    color: var(--text-primary);
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Hero Section */
+.hero-section {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    color: var(--text-primary);
+    background: url('https://files.catbox.moe/cvpyya.png') no-repeat center center/cover;
+    transition: color 0.3s;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--hero-overlay-bg);
+    backdrop-filter: blur(5px);
+    transition: background-color 0.3s;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    max-width: 800px;
+}
+
+.hero-logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid var(--primary-accent);
+    margin-bottom: 1.5rem;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: var(--text-primary);
+    text-shadow: 0 0 15px var(--primary-accent);
+}
+
+.hero-content p {
+    font-size: 1.1rem;
+    color: var(--text-secondary);
+    margin-bottom: 2.5rem;
+}
+
+.hero-cta {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 28px;
+    border-radius: 50px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+}
+
+.btn-primary {
+    background-color: var(--primary-accent);
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-accent-hover);
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn-secondary {
+    background-color: transparent;
+    border-color: var(--border-color);
+    color: var(--text-primary);
+}
+
+.btn-secondary:hover {
+    background-color: var(--bg-card);
+    border-color: var(--primary-accent);
+    color: var(--primary-accent);
+    transform: translateY(-3px);
+}
+
+/* Sections General Styling */
+section {
+    padding: 6rem 2rem;
+    transition: background-color 0.3s;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: var(--text-primary);
+}
+
+.section-subtitle {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 3rem;
+    color: var(--text-secondary);
+}
+
+/* Contact Section */
+.contact-section {
+    background-color: var(--bg-main);
+}
+
+.contact-links {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.contact-button {
+    font-size: 1.1rem;
+    padding: 15px 30px;
+    border-radius: 8px;
+    color: white;
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.contact-button i {
+    font-size: 1.6rem;
+}
+
+.whatsapp {
+    background: linear-gradient(45deg, #25D366, #128C7E);
+}
+
+.telegram {
+    background: linear-gradient(45deg, #0088cc, #00A9E0);
+}
+
+.contact-button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+/* Products Section */
+.products-section {
+    background-color: var(--bg-card);
+    padding-bottom: 7rem;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.category-card {
+    background-color: var(--bg-main);
+    padding: 2.5rem;
+    border-radius: 12px;
+    border: 1px solid var(--border-color);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s, border-color 0.3s;
+}
+
+.category-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+    border-color: var(--primary-accent);
+}
+
+.card-icon {
+    font-size: 3rem;
+    color: var(--primary-accent);
+    margin-bottom: 1.5rem;
+}
+
+.category-card h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: var(--text-primary);
+}
+
+.category-card p {
+    color: var(--text-secondary);
+    margin-bottom: 2rem;
+    line-height: 1.7;
+}
+
+.btn-card {
+    display: inline-block;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 8px;
+    background-color: var(--primary-accent);
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+.btn-card:hover {
+    background-color: var(--primary-accent-hover);
+}
+
+/* Footer */
+.footer {
+    background-color: var(--bg-card-2);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    border-top: 1px solid var(--border-color);
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+/* --- THEME SWITCHER BUTTON (CSS BARU) --- */
+#theme-switcher {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    width: 50px;
+    height: 50px;
+    background-color: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 1010;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    transition: background-color 0.3s, border-color 0.3s, transform 0.2s ease;
+}
+
+#theme-switcher:hover {
+    transform: scale(1.1);
+}
+
+#theme-switcher i {
+    font-size: 20px;
+    position: absolute;
+    transition: transform 0.4s ease, opacity 0.4s ease;
+}
+
+#theme-switcher .fa-sun {
+    color: #f39c12;
+}
+
+#theme-switcher .fa-moon {
+    color: #82a0ce;
+}
+
+/* --- ANIMASI IKON THEME SWITCHER (CSS BARU) --- */
+body[data-theme="light"] #theme-switcher .fa-sun {
+    transform: translateY(150%) rotate(180deg);
+    opacity: 0;
+}
+
+body[data-theme="light"] #theme-switcher .fa-moon {
+    transform: translateY(0) rotate(0);
+    opacity: 1;
+}
+
+body[data-theme="dark"] #theme-switcher .fa-sun {
+    transform: translateY(0) rotate(0);
+    opacity: 1;
+}
+
+body[data-theme="dark"] #theme-switcher .fa-moon {
+    transform: translateY(-150%) rotate(-180deg);
+    opacity: 0;
+}
+
+
+/* Responsive */
+@media (max-width: 768px) {
+    .hero-content h1 {
+        font-size: 2.2rem;
+    }
+
+    .hero-cta {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn {
+        width: 80%;
+        justify-content: center;
+    }
+
+    .section-title {
+        font-size: 2rem;
+    }
+}
